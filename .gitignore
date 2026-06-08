@@ -1,0 +1,22 @@
+# Node
+node_modules/
+.env
+
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Android
+android/.gradle/
+android/local.properties
+
+# iOS
+ios/Pods/
+
+# VS Code
+.vscode/
+
+# Misc
+*.log
