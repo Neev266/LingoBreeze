@@ -8,7 +8,7 @@ class ApiService {
 
   final String _backendUrl = const String.fromEnvironment(
     'BACKEND_URL',
-    defaultValue: 'http://10.103.247.228:3000',
+    defaultValue: 'https://lingobreeze-dpe5.onrender.com',
   );
 
   Future<List<VocabularyModel>> getWords() async {
@@ -16,9 +16,6 @@ class ApiService {
       final response = await _dio.get(
         '$_backendUrl/words',
         options: Options(
-          headers: const {
-            'x-api-key': 'lingobreeze_public_key_2026',
-          },
           connectTimeout: const Duration(seconds: 10),
           sendTimeout: const Duration(seconds: 10),
           receiveTimeout: const Duration(seconds: 10),
