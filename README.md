@@ -7,8 +7,8 @@ The project features a clean, highly optimized **Bloc state management** archite
 ---
 
 ## Technical Stack
-- **Frontend**: Flutter, Material 3, Bloc, GetIt (Service Locator), Dio (Networking), Firebase Firestore
-- **Backend**: Node.js, Express.js
+- **Frontend**: Flutter, Bloc, Dio (Networking), Firebase Firestore
+- **Backend**: Node.js,
 - **Database**: Cloud Firestore
 
 ---
