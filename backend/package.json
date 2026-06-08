@@ -1,5 +1,5 @@
 {
-  "name": "study-mate-backend",
+  "name": "LingoBreeze-Backend",
   "version": "1.0.0",
   "description": "Backend API for StudyMate LingoBreeze vocabulary feature",
   "main": "src/app.js",
